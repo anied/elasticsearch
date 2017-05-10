@@ -760,7 +760,7 @@ GET /bank/_search
 Dissecting the above, the `query` part tells us what our query definition is and the `match_all` part is simply the type of query that we want to run. The `match_all` query is simply a search for all documents in the specified index.
 
 In addition to the `query` parameter, we also can pass other parameters to
-influence the search results. In the example in the section above we passed in
+influence the search results. In the example from the previous section we passed in
 `sort`, here we pass in `size`:
 
 [source,js]
